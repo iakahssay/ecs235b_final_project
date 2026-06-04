@@ -16,7 +16,7 @@ PART 3 demonstrates three realistic flaws that each break noninterference:
     Flaw C — File-size side channel: LOW user can observe whether a HIGH write occurred
                                      by checking a shared file-size metadata field.
 """
-
+from __future__ import annotations
 from dataclasses import dataclass, field
 import copy
 
