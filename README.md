@@ -13,9 +13,9 @@ Each script is self-contained and can be run from the command line. The scripts 
 ## Files Included
 
 ```text
-Chinesewall_test.py
-lbac_test.py
-non_interference_test.py
+Chinese_Wall_test.py
+LBAC_test.py
+Noninterference_test.py
 ```
 
 ---
@@ -27,9 +27,9 @@ non_interference_test.py
 Download the three Python files from the project submission or repository:
 
 ```text
-Chinesewall_test.py
-lbac_test.py
-non_interference_test.py
+Chinese_Wall_test.py
+LBAC_test.py
+Noninterference_test.py
 ```
 
 Place all three files in the same folder, such as:
@@ -57,27 +57,27 @@ cd path\to\confidentiality-model-tests
 Run the Chinese Wall Model test:
 
 ```bash
-python3 Chinesewall_test.py
+python3 Chinese_Wall_test.py
 ```
 
 Run the LBAC test:
 
 ```bash
-python3 lbac_test.py
+python3 LBAC_test.py
 ```
 
 Run the Noninterference test:
 
 ```bash
-python3 non_interference_test.py
+python3 Noninterference_test.py
 ```
 
 On Windows, use `python` instead of `python3` if your system uses `python` as the command:
 
 ```cmd
-python Chinesewall_test.py
-python lbac_test.py
-python non_interference_test.py
+python Chinese_Wall_test.py
+python LBAC_test.py
+python Noninterference_test.py
 ```
 
 ---
@@ -87,7 +87,7 @@ python non_interference_test.py
 ## File
 
 ```text
-Chinesewall_test.py
+Chinese_Wall_test.py
 ```
 
 ## Purpose
@@ -163,7 +163,7 @@ Expected high-level results include:
 ## File
 
 ```text
-lbac_test.py
+LBAC_test.py
 ```
 
 ## Purpose
@@ -242,7 +242,7 @@ Expected high-level results include:
 ## File
 
 ```text
-non_interference_test.py
+Noninterference_test.py
 ```
 
 ## Purpose
@@ -382,14 +382,14 @@ python3 script_name.py
 The noninterference script prints many test cases. To save the output to a text file, run:
 
 ```bash
-python3 non_interference_test.py > noninterference_output.txt
+python3 Noninterference_test.py > noninterference_output.txt
 ```
 
 You can do the same for the other scripts:
 
 ```bash
-python3 Chinesewall_test.py > chinesewall_output.txt
-python3 lbac_test.py > lbac_output.txt
+python3 Chinese_Wall_test.py > chinesewall_output.txt
+python3 LBAC_test.py > lbac_output.txt
 ```
 
 ---
